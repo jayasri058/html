@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Basic Example of Forms</title>
+</head>
+<style>
+   fieldset{
+             width:300px;
+             height:auto;
+	     margin:30px auto;
+	   }
+    legend{
+            text-align:center;
+	  }
+</style>
+ <body>
+  <fieldset>
+   <legend>Collection of form data</legend>
+    <form>
+      <label> FirstName:</label>
+      <input type="text" placeholder="Enter FirstName"> <br><br>
+      
+      <label> LastName:</label>
+      <input type="text" placeholder="Enter LastName"> <br><br>
+      
+      <label> Email:</label>
+      <input type="email" placeholder="Enter Email address"> <br><br>
+      
+      <label> Password:</label>
+      <input type="password" placeholder="Enter Password"> <br><br>
+
+      <label>Gender:</label>
+      <input type="radio" name="gender">male
+      <input type="radio" name="gender">female
+      <br><br>
+      
+      <label>Hobbies:</label>
+      <input type="checkbox">Music
+      <input type="checkbox">playing chess
+     <br><br>
+     
+      <label>date of birth:</label>
+     <input type="date">
+     <br><br>
+      
+
+      <label>address:</label>
+      <textarea rows="10" cols="30"></textarea>
+
+      <label>Place:</label>
+      <select>
+        <option>Select an option</option>
+        <option value="Kakinada">Kakinada</option>
+        <option value="Vizag">Vizag</option>
+      </select> <br><br>
+
+      <input type="Submit">
+  </form>
+ </fieldset> 
+ </body>
+</html>
+       
